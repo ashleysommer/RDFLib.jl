@@ -1,0 +1,19 @@
+name = "RDFLib"
+uuid = "fdef9c1a-fe9a-11e8-3fe5-9996b31dfc24"
+authors = ["Ashley Sommer <ashleysommer@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+ASTInterpreter2 = "e6d88f4b-b52a-544c-a8d3-7a4f12cb39c3"
+BenchmarkTools = "6e4b80f9-dd63-53aa-95a3-0cdb28fa8baf"
+DebuggerFramework = "67417a49-6d77-5db2-98c7-c13144130cd2"
+Decimals = "abce61dc-4473-55a0-ba07-351d65e31d42"
+UUIDs = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
